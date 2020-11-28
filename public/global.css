@@ -1,0 +1,24 @@
+:root {
+  --background-color: hsl(185, 75%, 39%);
+}
+
+html,
+body {
+  font-size: 18px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: var(--background-color);
+  background-image: url("/images/bg-pattern-top.svg"),
+    url("/images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left, bottom right;
+  background-size: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position-x: -26%,137%;
+  background-position-y: -100%,239%;
+}
